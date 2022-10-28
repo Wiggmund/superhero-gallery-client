@@ -1,11 +1,8 @@
-import { Counter } from './Counter';
-import './style.css';
+import { Form, Route, Routes } from 'react-router-dom';
+import { Home } from './pages/Home';
+import './App.css';
+import { FileUpload } from './components/file-upload/FileUpload';
 
 export const App = () => {
-	return (
-		<>
-			<h1>Test Webpack setup</h1>
-			<Counter />
-		</>
-	);
+	return <></>;
 };

@@ -1,0 +1,38 @@
+.card {
+	padding: 10px;
+	box-shadow: var(--shadow);
+	border-radius: var(--border-radius);
+	overflow: hidden;
+
+	cursor: pointer;
+	transition: transform 200ms ease-in;
+}
+
+.card:hover {
+	box-shadow: var(--shadow-active);
+	transform: scale(1.05);
+}
+
+.card__body {
+	display: grid;
+	gap: 1em;
+}
+
+.card__info {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	align-items: center;
+	justify-content: space-around;
+
+	gap: 1em;
+}
+
+.card__info h2 {
+	margin: 0;
+}
+
+.card__buttons {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: right;
+}

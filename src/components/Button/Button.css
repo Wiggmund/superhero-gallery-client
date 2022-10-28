@@ -1,0 +1,23 @@
+.custom-button {
+	border: 1px solid red;
+	border-radius: var(--border-radius);
+	background-color: transparent;
+	cursor: pointer;
+	transition: all 200ms ease-in;
+}
+
+.custom-button--hover:hover {
+	background-color: var(--primary-color);
+	color: white;
+}
+
+.custom-button--form {
+	padding: 5px;
+	width: 200px;
+	font-size: 1.5em;
+}
+
+.custom-button--upload {
+	width: 50px;
+	padding: 10px;
+}

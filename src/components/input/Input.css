@@ -1,0 +1,37 @@
+.custom-input {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	align-content: center;
+	gap: 1em;
+}
+
+.custom-input__header {
+	text-align: center;
+}
+
+.custom-input__wrapper {
+	font-size: 1em;
+	font-weight: 900;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.custom-input__input {
+	padding: 5px 15px;
+	height: 2rem;
+	font-size: 1.2em;
+	border-radius: 3px;
+	border: none;
+	border-bottom: 1px solid var(--primary-color);
+	cursor: pointer;
+}
+
+.custom-input__input:hover {
+	background-color: #fabec0;
+}
+
+.custom-input__input:focus {
+	outline: none;
+	border-bottom: 1px solid var(--primary-color);
+}

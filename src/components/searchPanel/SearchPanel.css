@@ -1,0 +1,33 @@
+.searchPanel {
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 10fr 1fr;
+	gap: 1em;
+	justify-content: center;
+	align-items: center;
+}
+
+.searchPanel label {
+	display: grid;
+	gap: 1em;
+	grid-template-columns: 1fr 10fr;
+	align-items: center;
+}
+
+.searchPanel label span {
+	font-size: 2em;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+}
+
+.searchPanel label span:hover {
+	border-bottom: 1px solid var(--primary-color);
+}
+
+.searchPanel__input {
+	height: 2em;
+	border-radius: var(--border-radius);
+	padding: 5px 15px;
+	font-size: 1.5em;
+}

@@ -1,0 +1,16 @@
+.controll_icons {
+	/* font-size: 1rem; */
+	cursor: pointer;
+	transition: all 200ms ease-in;
+	user-select: none;
+}
+
+.controll_icons--outlined:hover {
+	border: 1px solid var(--primary-color);
+	border-radius: 50%;
+}
+
+.controll_icons:hover {
+	transform: scale(1.02);
+	color: red;
+}

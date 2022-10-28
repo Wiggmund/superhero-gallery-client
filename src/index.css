@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--border-radius: 10px;
+	--primary-color: red;
+	--shadow: 0 2px 20px lightgray;
+	--shadow-active: 0 2px 20px rgb(235, 57, 57);
+}

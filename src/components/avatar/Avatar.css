@@ -1,0 +1,9 @@
+.avatar {
+	height: 12rem;
+	width: 100%;
+	border-radius: var(--border-radius);
+}
+
+.avatar--hover:hover {
+	box-shadow: var(--shadow-active);
+}
